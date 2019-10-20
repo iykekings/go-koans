@@ -17,9 +17,8 @@ func aboutArrays() {
 
 	tastyFruits := fruits[1:3]                           // defining oneself as a variation of another
 	assert(fmt.Sprintf("%T", tastyFruits) == "[]string") //and get not a simple array as a result
-	fmt.Println(fmt.Sprintf("%T", tastyFruits))
-	assert(tastyFruits[0] == "orange") // slices of arrays share some data
-	assert(tastyFruits[1] == "mango")  // albeit slightly askewed
+	assert(tastyFruits[0] == "orange")                   // slices of arrays share some data
+	assert(tastyFruits[1] == "mango")                    // albeit slightly askewed
 
 	assert(len(tastyFruits) == 2) // its length is manifest
 	assert(cap(tastyFruits) == 3) // but its capacity is surprising!
