@@ -1,4 +1,4 @@
-package go_koans
+package goKoans
 
 func aboutDefer() {
 	var acc int

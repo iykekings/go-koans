@@ -1,4 +1,4 @@
-package go_koans
+package goKoans
 
 func aboutBasics() {
 	assert(true == true)  // what is truth?

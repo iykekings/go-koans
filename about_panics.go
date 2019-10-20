@@ -1,4 +1,4 @@
-package go_koans
+package goKoans
 
 func divideFourBy(i int) int {
 	return 4 / i

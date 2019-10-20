@@ -1,4 +1,4 @@
-package go_koans
+package goKoans
 
 func aboutInterfaces() {
 	bob := new(human)     // bob is a kind of *human
